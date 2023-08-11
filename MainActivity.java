@@ -1,5 +1,7 @@
 package com.kirtanpatel.menuandlocalstorage;
 
+// we import some menu, view, bundle, toast etc
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -19,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.kirtanpatel.menuandlocalstorage.databinding.ActivityMainBinding;
 
+// we create public class and  put private function and then override protected void function then after we set content view and set support action bar…
 public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
@@ -52,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    /*@Override*/
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
